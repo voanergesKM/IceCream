@@ -7,6 +7,14 @@
     width: 320px;
   }
 
+  @media screen and (min-width: 375px) {
+    width: 375px;
+  }
+
+  @media screen and (min-width: 425px) {
+    width: 400px;
+  }
+
   @media screen and (min-width: 768px) {
     width: 768px;
     padding-left: 32px;
@@ -17,27 +25,5 @@
     width: 1200px;
     padding-left: 16px;
     padding-right: 16px;
-  }
-}
-
-.container__rc {
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-
-  @media screen and (min-width: 320px) {
-    width: 320px;
-  }
-
-  @media screen and (min-width: 768px) {
-    width: 768px;
-    padding-left: 74px;
-    padding-right: 74px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    width: 1200px;
-    padding-left: 116px;
-    padding-right: 116px;
   }
 }
