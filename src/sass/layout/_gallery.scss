@@ -232,3 +232,15 @@ $offset: calc(($width - ($s1 * 7)) / 6);
     }
   }
 }
+
+.grid__img {
+  cursor: pointer;
+
+  transition: all 250ms ease-in;
+
+  &:hover {
+    position: relative;
+    transform: scale(1.2);
+    z-index: 999;
+  }
+}
